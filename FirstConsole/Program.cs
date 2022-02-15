@@ -8,7 +8,7 @@ namespace FirstConsole
     {
         static void Main(string[] args)
         {
-
+            Console.WriteLine("DENEME");
             Console.WriteLine("DENEME");
             Console.ReadLine();
         }
