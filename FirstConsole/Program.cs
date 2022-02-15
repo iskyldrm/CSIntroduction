@@ -10,7 +10,7 @@ namespace FirstConsole
         {
             Console.WriteLine("DENEME");
             Console.WriteLine("DENEME");
-           
+
 
             #region Degiskenleri Tanımla Kuralları
             /* 
@@ -23,7 +23,9 @@ namespace FirstConsole
              */
 
             #endregion
-           
+
+            #region Sayisal Veri Tipleri
+
             #region Tamsyi değiskenler
             //Veri tipi DegiskenAdi = İlkdegeratamasi
 
@@ -104,29 +106,6 @@ namespace FirstConsole
 
             #endregion
 
-            #region Metinsel Veri tipi
-
-            //char => uzerinde 1 adet karekter barindiran vari tipidir
-            char DegiskenChar = 'Ğ'; // 16 bit UniCode Karekter
-
-
-            //string => Uzerinde istediğimiz kadar veri tutabileceğimiz alandır
-
-            string DegiskenString = "dasmdasdmoaspakcasfkposakfpsamcvpafsa" 
-                + "skasşkfasfasfşaskfoaskfaskfaskfascf" 
-                + "dlasldlaksdalsda";
-
-            string str = "Bugun Gunlerde Sali";
-
-            //str = "su anda  \fenerbahce universtesindeyim\"";
-
-            Console.WriteLine(str);
-
-
-
-
-            #endregion
-  
             #region Mantiksal Veri Tipi
 
             //bool veir tipi kullanılır
@@ -141,6 +120,33 @@ namespace FirstConsole
 
             #endregion
 
+
+
+            #endregion
+
+            #region Metinsel Veri tipi
+
+            //char => uzerinde 1 adet karekter barindiran vari tipidir
+            char DegiskenChar = 'Ğ'; // 16 bit UniCode Karekter
+
+
+            
+            
+            //string => Uzerinde istediğimiz kadar veri tutabileceğimiz alandır
+            string DegiskenString = "dasmdasdmoaspakcasfkposakfpsamcvpafsa"
+                + "skasşkfasfasfşaskfoaskfaskfaskfascf"
+                + "dlasldlaksdalsda";
+
+            string str = "Bugun Gunlerde Sali";
+
+            //str = "su anda  \fenerbahce universtesindeyim\"";
+
+            Console.WriteLine(str);
+
+
+
+
+            #endregion
 
             Console.ReadLine();
 
