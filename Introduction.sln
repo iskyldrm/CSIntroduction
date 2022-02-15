@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FirstConsole", "FirstConsol
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AritmetikOperatorler", "AritmetikOperatorler\AritmetikOperatorler.csproj", "{47D8598B-794A-436A-A82D-3E4BF1DA480B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LabOperatorler", "LabOperatorler\LabOperatorler.csproj", "{A1CE1FAB-AF7B-4418-AC69-2C0CEFDEC3CA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{47D8598B-794A-436A-A82D-3E4BF1DA480B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{47D8598B-794A-436A-A82D-3E4BF1DA480B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{47D8598B-794A-436A-A82D-3E4BF1DA480B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1CE1FAB-AF7B-4418-AC69-2C0CEFDEC3CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1CE1FAB-AF7B-4418-AC69-2C0CEFDEC3CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1CE1FAB-AF7B-4418-AC69-2C0CEFDEC3CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1CE1FAB-AF7B-4418-AC69-2C0CEFDEC3CA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
