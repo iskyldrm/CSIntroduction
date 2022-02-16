@@ -99,45 +99,67 @@ namespace _5.ifElse
             #endregion
 
             #region 2.soru
-            int sayi;
+            int sayi =0;
+            string deger ="";
+            bool donusme;
+
+            basla:
 
             Console.WriteLine("1 ile 24 arasında sayı giriniz: ");
 
-            sayi = Convert.ToByte(Console.ReadLine());
+            deger = Console.ReadLine();
 
-            if (sayi >= 4 && sayi <= 10)
+            
+
+            donusme = int.TryParse(deger, out sayi);
+
+            //sayi = Convert.ToByte(Console.ReadLine());
+
+            if (donusme==true)
             {
-                Console.WriteLine("Girilen sayıya göre şuan: Sabah");
+                if (sayi >= 4 && sayi <= 10)
+                {
+                    Console.WriteLine("Girilen sayıya göre şuan: Sabah");
+                }
+
+                else if (sayi >= 11 && sayi <= 13)
+                {
+                    Console.WriteLine("Girilen sayıya göre şuan: Öğlen");
+                }
+
+                else if (sayi >= 14 && sayi <= 18)
+                {
+                    Console.WriteLine("Girilen sayıya göre şuan: İkindi");
+                }
+
+                else if (sayi >= 19 && sayi <= 21)
+                {
+                    Console.WriteLine("Girilen sayıya göre şuan: Akşam");
+                }
+
+                else if (sayi >= 22 && sayi < 4)
+                {
+                    Console.WriteLine("Girilen sayıya göre şuan: Gece");
+                }
+
+                /*
+                else if (sayi > 24 || sayi < 1)
+                {
+                    Console.WriteLine("1-24 ARASINDA BİR SAYI GİRMELİYDİNİZ!!!!!!!!");
+                }
+                */
+
+            }
+            else
+            {
+                goto basla;
             }
 
-            else if (sayi >= 11 && sayi <= 14)
-            {
-                Console.WriteLine("Girilen sayıya göre şuan: Öğlen");
-            }
-
-            else if (sayi >= 14 && sayi <= 19)
-            {
-                Console.WriteLine("Girilen sayıya göre şuan: İkindi");
-            }
-
-            else if (sayi >= 19 && sayi <= 22)
-            {
-                Console.WriteLine("Girilen sayıya göre şuan: Akşam");
-            }
-
-            else if (sayi >= 22 && sayi < 4)
-            {
-                Console.WriteLine("Girilen sayıya göre şuan: Gece");
-            }
-
-            else if (sayi > 24 || sayi < 1)
-            {
-                Console.WriteLine("1-24 ARASINDA BİR SAYI GİRMELİYDİNİZ!!!!!!!!");
-            } 
+            
             #endregion
 
 
-
+            
 
         }
     }
