@@ -22,17 +22,50 @@ namespace _4.TypeDonusumleri
             //bool,byte,char,datetime,decimal ve parse metodlarıda kullanılır.
 
 
-            string deger = "15";
+            #region Type Convertion
+            string deger = "127";
 
-            int sayi = int.Parse(deger);
+            //int sayi = int.Parse(deger);
 
-            int isayi = 9579;
+            int sayi1;
+            int sayi2;
+            int sayi3;
 
-            byte bsayi = 125;
 
-            bsayi = (byte)isayi;
+            sbyte sbyte1;
 
-            Console.WriteLine("ksndlksald: "+bsayi);
+            //int isayi = 9579;
+
+            //byte bsayi = 125;
+
+            //bsayi = (byte)isayi; //her 256 da bir tekrar birden başlayarak devam eder
+
+            //Console.WriteLine("ksndlksald: " + bsayi);
+
+            //int, sbyte, byte,short,long
+
+            //sayi1 = Convert.ToInt16(deger);
+
+            //Console.WriteLine("int Çevrilen sayi: {0}",deger);
+
+            ////sbyte1 = (sbyte)sayi1;
+
+            //sbyte1 = Convert.ToSByte(sayi1);
+
+            //Console.WriteLine("sbyte Çevrilen sayi: {0}", sbyte1);
+
+
+            
+
+
+
+
+
+
+
+
+
+            #endregion
 
 
 
@@ -44,12 +77,12 @@ namespace _4.TypeDonusumleri
              
              */
 
-            Console.WriteLine(DateTime.Now);
+            //Console.WriteLine(DateTime.Now);
 
 
-            DateTime dogumTarihi = new DateTime(1990,5,3,13,45,36);
+            //DateTime dogumTarihi = new DateTime(1990,5,3,13,45,36);
 
-            Console.WriteLine(dogumTarihi);
+            //Console.WriteLine(dogumTarihi);
 
 
             #endregion
