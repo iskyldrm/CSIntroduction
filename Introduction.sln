@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4.TypeDonusumleri", "4.Type
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5.ifElse", "5.ifElse\5.ifElse.csproj", "{848E37D0-08D0-47FD-BDDA-096EDFD27820}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6.Switch-Case", "6.Switch-Case\6.Switch-Case.csproj", "{B3FDD0BC-36BB-406D-8C14-4C04279866BF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{848E37D0-08D0-47FD-BDDA-096EDFD27820}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{848E37D0-08D0-47FD-BDDA-096EDFD27820}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{848E37D0-08D0-47FD-BDDA-096EDFD27820}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3FDD0BC-36BB-406D-8C14-4C04279866BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3FDD0BC-36BB-406D-8C14-4C04279866BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3FDD0BC-36BB-406D-8C14-4C04279866BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3FDD0BC-36BB-406D-8C14-4C04279866BF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
