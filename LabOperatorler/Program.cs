@@ -16,9 +16,11 @@ namespace LabOperatorler
             float sonuc4;
             float sayi3;
             float sayi4;
+            string name;
+            string lastname;
 
 
-            //// #region Ekrandan Deger Alma
+            #region Ekrandan Deger Alma
             // /*
             //     Ekrandan değer alma
             //     1- string değer alma
@@ -47,16 +49,11 @@ namespace LabOperatorler
             // Console.WriteLine("Girilen İsim: " + isim);
             // Console.WriteLine("Girilen Yaş: " + yas);
             // Console.WriteLine("Girilen Boy: " + boy);
-            // #endregion
+            #endregion
 
 
-            //#region 1.soru
-            //int sayi1;
-            //int sayi2;
-            //int sonuc;
-            //int sonuc1;
-            //float sonuc2;
-            //float sonuc3;
+            #region 1.soru
+
 
             //Console.WriteLine("Birinci sayiyi giriniz :");
             //sayi1 = Convert.ToInt32(Console.ReadLine());
@@ -74,10 +71,8 @@ namespace LabOperatorler
 
 
             //Console.WriteLine("Sonucunuz: " + sonuc3); 
-            //#endregion
-
-
-            //#region 2.soru
+            #endregion
+            #region 2.soru
             //Console.WriteLine("Birinci sayiyi giriniz :");
             //sayi1 = Convert.ToInt32(Console.ReadLine());
 
@@ -94,11 +89,8 @@ namespace LabOperatorler
             //sonuc3 = sonuc2 * sonuc2;
 
             //Console.WriteLine("Sonucunuz: " + sonuc1 + " sonucunuz 2: " + sonuc3);
-            //#endregion
-
-
-
-            //#region 3.soru
+            #endregion
+            #region 3.soru
             //Console.WriteLine("Birinci sayiyi giriniz :");
             //sayi1 = Convert.ToInt32(Console.ReadLine());
 
@@ -112,29 +104,38 @@ namespace LabOperatorler
             //sonuc2 = sonuc - sonuc1;
 
             //Console.WriteLine("Sonucunuz: " + sonuc2);
-            //#endregion
+            #endregion
+            #region 4.soru
+
+            //Console.WriteLine("Birinci sayiyi giriniz :");
+            //sayi3 = Convert.ToInt32(Console.ReadLine());
+
+            //Console.WriteLine("İkinci sayiyi giriniz: ");
+
+            //sayi4 = Convert.ToInt32(Console.ReadLine());
 
 
+            //sonuc2 = (sayi3 / 10) * 3;
+
+            //sonuc3 = (sayi4 / 10) * 7;
+
+            //sonuc4 = sonuc2 + sonuc3;
+
+            //Console.WriteLine("Sonucunuz: " + sonuc4);
+
+            #endregion
+            #region 5.soru
+            Console.WriteLine("İsminizi Giriniz: ");
+
+            name = Console.ReadLine();
+
+            Console.WriteLine("Soyadınızı Giriniz: ");
+
+            lastname = Console.ReadLine();
 
 
-            Console.WriteLine("Birinci sayiyi giriniz :");
-            sayi3 = Convert.ToInt32(Console.ReadLine());
-
-            Console.WriteLine("İkinci sayiyi giriniz: ");
-
-            sayi4 = Convert.ToInt32(Console.ReadLine());
-
-
-            sonuc2 = (sayi3 / 10) * 3;
-
-            sonuc3 = (sayi4 / 10) * 7;
-
-            sonuc4 = sonuc2 + sonuc3;
-
-            Console.WriteLine("Sonucunuz: " + sonuc4);
-
-
-
+            Console.WriteLine("Mail adresiniz: " + name + "." + lastname + "@gmail.com"); 
+            #endregion
 
 
 
