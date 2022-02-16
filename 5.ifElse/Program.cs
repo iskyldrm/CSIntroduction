@@ -6,6 +6,7 @@ namespace _5.ifElse
     {
         static void Main(string[] args)
         {
+            
 
 
             #region ifElse Anlatımı
@@ -98,8 +99,9 @@ namespace _5.ifElse
             */
             #endregion
 
+
             #region 2.soru
-            int sayi =0;
+            /*int sayi =0;
             string deger ="";
             bool donusme;
 
@@ -147,19 +149,35 @@ namespace _5.ifElse
                 {
                     Console.WriteLine("1-24 ARASINDA BİR SAYI GİRMELİYDİNİZ!!!!!!!!");
                 }
-                */
+                
 
             }
             else
             {
                 goto basla;
             }
+            */
 
-            
+
+
+
             #endregion
 
 
-            
+            #region Ternary Operatörü
+
+            string gdeger = "";
+
+            gdeger = Console.ReadLine();
+
+            Console.WriteLine(gdeger == "ali" ? "true" : "false");
+
+
+
+
+            #endregion
+
+
 
         }
     }
