@@ -27,32 +27,28 @@ namespace _4.TypeDonusumleri
 
             //int sayi = int.Parse(deger);
 
-            int sayi1;
-            int sayi2;
-            int sayi3;
-
-
+            
             sbyte sbyte1;
 
-            //int isayi = 9579;
+            int isayi = 6000;
 
-            //byte bsayi = 125;
+            byte bsayi = 125;
 
-            //bsayi = (byte)isayi; //her 256 da bir tekrar birden başlayarak devam eder
+            bsayi = (byte)isayi; //her 256 da bir tekrar birden başlayarak devam eder
 
-            //Console.WriteLine("ksndlksald: " + bsayi);
+            Console.WriteLine("ksndlksald: " + bsayi);
 
             //int, sbyte, byte,short,long
 
-            //sayi1 = Convert.ToInt16(deger);
+            isayi = Convert.ToInt16(deger);
 
-            //Console.WriteLine("int Çevrilen sayi: {0}",deger);
+            Console.WriteLine("int Çevrilen sayi: {0}",deger);
 
-            ////sbyte1 = (sbyte)sayi1;
+            sbyte1 = (sbyte)isayi;
 
             //sbyte1 = Convert.ToSByte(sayi1);
 
-            //Console.WriteLine("sbyte Çevrilen sayi: {0}", sbyte1);
+            Console.WriteLine("sbyte Çevrilen sayi: {0}", sbyte1);
 
 
             
@@ -66,9 +62,6 @@ namespace _4.TypeDonusumleri
 
 
             #endregion
-
-
-
             #region DateTime veri tipi
 
             /*
