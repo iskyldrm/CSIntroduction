@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.32106.194
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FirstConsole", "FirstConsole\FirstConsole.csproj", "{F35B9F50-4DD4-48B5-87B7-E1F129ECFAE4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.FirstConsole", "FirstConsole\1.FirstConsole.csproj", "{F35B9F50-4DD4-48B5-87B7-E1F129ECFAE4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AritmetikOperatorler", "AritmetikOperatorler\AritmetikOperatorler.csproj", "{47D8598B-794A-436A-A82D-3E4BF1DA480B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2.AritmetikOperatorler", "AritmetikOperatorler\2.AritmetikOperatorler.csproj", "{47D8598B-794A-436A-A82D-3E4BF1DA480B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LabOperatorler", "LabOperatorler\LabOperatorler.csproj", "{A1CE1FAB-AF7B-4418-AC69-2C0CEFDEC3CA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "3.LabOperatorler", "LabOperatorler\3.LabOperatorler.csproj", "{A1CE1FAB-AF7B-4418-AC69-2C0CEFDEC3CA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4.TypeDonusumleri", "4.TypeDonusumleri\4.TypeDonusumleri.csproj", "{58FCDFCF-5ACC-4F88-82AC-8F83A4BCFB09}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{A1CE1FAB-AF7B-4418-AC69-2C0CEFDEC3CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A1CE1FAB-AF7B-4418-AC69-2C0CEFDEC3CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A1CE1FAB-AF7B-4418-AC69-2C0CEFDEC3CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58FCDFCF-5ACC-4F88-82AC-8F83A4BCFB09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58FCDFCF-5ACC-4F88-82AC-8F83A4BCFB09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58FCDFCF-5ACC-4F88-82AC-8F83A4BCFB09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58FCDFCF-5ACC-4F88-82AC-8F83A4BCFB09}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
