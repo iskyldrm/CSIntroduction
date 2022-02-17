@@ -18,7 +18,8 @@ namespace _6.Switch_Case
             break => kosul saglandi ve karar yapisini kirar .
              */
 
-            string deger;
+            /*
+             * string deger;
 
             Console.Write("Mevsim Giriniz:");
             deger = Console.ReadLine();
@@ -39,10 +40,89 @@ namespace _6.Switch_Case
                     Console.WriteLine("Eylul-Ekim-Kasim");
                     break;
             }
+            */
 
             #endregion
 
-            Console.WriteLine("Hello World!");
+            #region Ay sorusu
+            string sayi = " ";
+
+        basla:
+            Console.Write("1-12 arası bir sayı giriniz: ");
+            sayi = Console.ReadLine();
+
+            Console.WriteLine(" ");
+
+
+            switch (sayi)
+            {
+                case "1":
+                    Console.WriteLine("Bu ay: Ocak");
+                    break;
+
+                case "2":
+                    Console.WriteLine("Bu ay: Şubat");
+                    break;
+
+                case "3":
+                    Console.WriteLine("Bu ay: Mart");
+                    break;
+
+                case "4":
+                    Console.WriteLine("Bu ay: Nisan");
+                    break;
+
+                case "5":
+                    Console.WriteLine("Bu ay: Mayıs");
+                    break;
+
+                case "6":
+                    Console.WriteLine("Bu ay: Haziran");
+                    break;
+
+                case "7":
+                    Console.WriteLine("Bu ay: Temmuz");
+                    break;
+
+                case "8":
+                    Console.WriteLine("Bu ay: Ağustos");
+                    break;
+
+                case "9":
+                    Console.WriteLine("Bu ay: Eylül");
+                    break;
+
+                case "10":
+                    Console.WriteLine("Bu ay: Ekim");
+                    break;
+
+                case "11":
+                    Console.WriteLine("Bu ay: Kasım");
+                    break;
+
+                case "12":
+                    Console.WriteLine("Bu ay: Aralık");
+                    break;
+
+                default:
+                    Console.WriteLine("Gecersiz değer!!!");
+
+                    goto basla;
+
+
+            }
+
+            #endregion
+
+
+
+
+
+
+
+
+
+
         }
     }
 }
