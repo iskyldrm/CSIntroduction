@@ -69,58 +69,99 @@ namespace _8.Donguler
 
             #endregion
 
+            #region 6.soru
+            int sayi1 = 0;
+            int sayi2 = 0;
 
-            int i;
-            int sayi1;
-            int sayi2;
-            int a=0;
-            int b=0;
-            
-
+            int s1 = 0;
+            int s2 = 0;
 
 
-            Console.Write("Birinci sayıyı giriniz: ");
+            int a = 0;
+            int b = 0;
 
-            sayi1 = int.Parse(Console.ReadLine());
+            int i = 0;
 
-            Console.Write("İkinci sayıyı giriniz: ");
 
-            sayi2 = int.Parse(Console.ReadLine());
-
-            if (sayi1>sayi2)
+        basla:
+            try
             {
+                Console.WriteLine("birinci sayıyı giriniz: ");
+                sayi1 = int.Parse(Console.ReadLine());
 
-                for (i = (sayi2+1); i < sayi1; i++)
+                Console.WriteLine("ikinci sayıyı giriniz: ");
+                sayi2 = int.Parse(Console.ReadLine());
+
+                if (sayi1 > sayi2)
                 {
-                    
-                    a = (sayi2 + 1);
+                    a = sayi2 + 1;
+                    b = sayi1 - 1;
+                    Console.WriteLine("sayılar     Karesi      Küpü");
+                    for (i = a; i <= b; i++)
 
-                    b = a*a;
+                    {
+                        s1 = i * i;
+                        s2 = i * i * i;
 
-                    sayi2++;
+                        Console.Write("    {0}", i);
+                        Console.Write("        {0}", s1);
+                        Console.Write("        {0}", s2);
+                        Console.WriteLine("");
 
-                    Console.WriteLine("kareleri " + b);
+
+                    }
+                    goto basla;
 
                 }
 
-                
+                else if (sayi1 < sayi2)
+                {
+                    a = sayi2 - 1;
+                    b = sayi1 + 1;
+                    Console.WriteLine("sayılar     Karesi   Küpü");
+
+                    for (i = b; i <= a; i++)
+
+                    {
+                        s1 = i * i;
+                        s2 = i * i * i;
+
+                        Console.Write("    {0}", i);
+                        Console.Write("        {0}", s1);
+                        Console.Write("          {0}", s2);
+                        Console.WriteLine("");
 
 
-
+                    }
+                    goto basla;
+                }
+                else
+                {
+                    Console.WriteLine("Eşit sayılar arasında sayımı olur!!");
+                    goto basla;
+                }
 
             }
+            catch (FormatException fe) // Format hatasi
+            {
 
+                Console.WriteLine("Formatlama Hatasi :" + fe.Message);
+                goto basla;
+            }
 
+            catch (OverflowException oe) // Taşma hatasi
+            {
 
+                Console.WriteLine("Taşma Hatasi :" + oe.Message);
+                goto basla;
+            }
+            catch (Exception ex) // Geri kalan ne varsa 
+            {
 
-
-
-
-
-
-
-
-
+                Console.WriteLine("Bilinmeyen  Hata:" + ex.Message);
+                goto basla;
+            } 
+            #endregion
 
 
         }
