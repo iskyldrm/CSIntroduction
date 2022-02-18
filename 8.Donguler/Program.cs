@@ -70,7 +70,7 @@ namespace _8.Donguler
             #endregion
 
             #region 6.soru
-            int sayi1 = 0;
+            /*int sayi1 = 0;
             int sayi2 = 0;
 
             int s1 = 0;
@@ -160,9 +160,31 @@ namespace _8.Donguler
 
                 Console.WriteLine("Bilinmeyen  Hata:" + ex.Message);
                 goto basla;
-            } 
+            }
+            */
             #endregion
 
+            int a = 0;
+            int b = 1;
+            int c = 0;
+            float d = 0;
+
+
+            for (int i = 0; i<= 30; i++)
+            {
+                
+                c = a + b;
+
+                a = b;
+                b = c;
+
+                d = (a+b) / (float)c;
+                
+
+            Console.WriteLine("-" + b +" "+ d );
+            }
+
+            
 
         }
     }
