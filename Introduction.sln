@@ -25,7 +25,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "10.metods", "10.metods\10.m
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12.RefAndOut", "RefAndOut\12.RefAndOut.csproj", "{EA6B9AA9-6ABD-496F-BE86-B68E4FD03B90}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArraySinifiveMetodlar,", "ArraySinifiveMetodlar,\ArraySinifiveMetodlar,.csproj", "{07477C5E-6391-449E-A0E0-58CEE3531D12}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "14.ArraySinifiveMetodlar,", "ArraySinifiveMetodlar,\14.ArraySinifiveMetodlar,.csproj", "{07477C5E-6391-449E-A0E0-58CEE3531D12}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "13.ArrayList", "ArrayList\13.ArrayList.csproj", "{504E6EDB-E37D-4620-8AF5-BB5E4321E1A7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -81,6 +83,10 @@ Global
 		{07477C5E-6391-449E-A0E0-58CEE3531D12}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{07477C5E-6391-449E-A0E0-58CEE3531D12}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{07477C5E-6391-449E-A0E0-58CEE3531D12}.Release|Any CPU.Build.0 = Release|Any CPU
+		{504E6EDB-E37D-4620-8AF5-BB5E4321E1A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{504E6EDB-E37D-4620-8AF5-BB5E4321E1A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{504E6EDB-E37D-4620-8AF5-BB5E4321E1A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{504E6EDB-E37D-4620-8AF5-BB5E4321E1A7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
