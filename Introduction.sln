@@ -23,7 +23,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "9.Diziler", "9.Diziler\9.Di
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "10.metods", "10.metods\10.metods.csproj", "{5423AE8D-C460-497E-BFBF-61F840168629}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RefAndOut", "RefAndOut\RefAndOut.csproj", "{EA6B9AA9-6ABD-496F-BE86-B68E4FD03B90}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12.RefAndOut", "RefAndOut\12.RefAndOut.csproj", "{EA6B9AA9-6ABD-496F-BE86-B68E4FD03B90}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArraySinifiveMetodlar,", "ArraySinifiveMetodlar,\ArraySinifiveMetodlar,.csproj", "{07477C5E-6391-449E-A0E0-58CEE3531D12}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -75,6 +77,10 @@ Global
 		{EA6B9AA9-6ABD-496F-BE86-B68E4FD03B90}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EA6B9AA9-6ABD-496F-BE86-B68E4FD03B90}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EA6B9AA9-6ABD-496F-BE86-B68E4FD03B90}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07477C5E-6391-449E-A0E0-58CEE3531D12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07477C5E-6391-449E-A0E0-58CEE3531D12}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07477C5E-6391-449E-A0E0-58CEE3531D12}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07477C5E-6391-449E-A0E0-58CEE3531D12}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
