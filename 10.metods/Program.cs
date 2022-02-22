@@ -9,6 +9,7 @@ namespace _10.metods
 	
         static void Main(string[] args)
         {
+            
             #region çarpma bölme örneği
 
             //    int sayi1 = degeralma("birinci sayiyi giriniz:");
@@ -41,20 +42,20 @@ namespace _10.metods
             #endregion
 
             #region tekmiciftmi örneği
-            int sayi1 = degeralma("bir sayı giriniz");
-            string snc1 = tekmiciftmi(sayi1);
-            Console.WriteLine(snc1);
+            //int sayi1 = degeralma("bir sayı giriniz");
+            //string snc1 = tekmiciftmi(sayi1);
+            //Console.WriteLine(snc1);
 
             #endregion
         }
 
         #region deger alma
-        static int degeralma(string massege)
-        {
-            Console.WriteLine(massege);
-            int alinansayi = int.Parse(Console.ReadLine());
-            return alinansayi;
-        }
+        //static int degeralma(string massege)
+        //{
+        //    Console.WriteLine(massege);
+        //    int alinansayi = int.Parse(Console.ReadLine());
+        //    return alinansayi;
+        //}
         #endregion
 
 
@@ -101,25 +102,25 @@ namespace _10.metods
         #endregion
 
         #region tekmiciftmi
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="sayi"></param>
-        /// <returns></returns>
-        static string tekmiciftmi(int sayi)
-        {
-            string snc = "";
-            if (sayi % 2 == 0)
-            {
-                snc = "çift";
-                return snc;
-            }
+        ///// <summary>
+        ///// 
+        ///// </summary>
+        ///// <param name="sayi"></param>
+        ///// <returns></returns>
+        //static string tekmiciftmi(int sayi)
+        //{
+        //    string snc = "";
+        //    if (sayi % 2 == 0)
+        //    {
+        //        snc = "çift";
+        //        return snc;
+        //    }
 
-            else
-            {
-                snc = "tek";
-                return snc;
-            } 
+        //    else
+        //    {
+        //        snc = "tek";
+        //        return snc;
+        //    } 
             #endregion
 
         }
