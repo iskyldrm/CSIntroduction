@@ -23,15 +23,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "9.Diziler", "9.Diziler\9.Di
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "10.metods", "10.metods\10.metods.csproj", "{5423AE8D-C460-497E-BFBF-61F840168629}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12.RefAndOut", "RefAndOut\12.RefAndOut.csproj", "{EA6B9AA9-6ABD-496F-BE86-B68E4FD03B90}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "12.RefAndOut", "RefAndOut\12.RefAndOut.csproj", "{EA6B9AA9-6ABD-496F-BE86-B68E4FD03B90}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "14.ArraySinifiveMetodlar,", "ArraySinifiveMetodlar,\14.ArraySinifiveMetodlar,.csproj", "{07477C5E-6391-449E-A0E0-58CEE3531D12}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "14.ArraySinifiveMetodlar,", "ArraySinifiveMetodlar,\14.ArraySinifiveMetodlar,.csproj", "{07477C5E-6391-449E-A0E0-58CEE3531D12}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "13.ArrayList", "ArrayList\13.ArrayList.csproj", "{504E6EDB-E37D-4620-8AF5-BB5E4321E1A7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "13.ArrayList", "ArrayList\13.ArrayList.csproj", "{504E6EDB-E37D-4620-8AF5-BB5E4321E1A7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "15.listeler", "15.listeler\15.listeler.csproj", "{B4EF5A7D-708D-4920-9DDC-2D54C76A38E5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "15.listeler", "15.listeler\15.listeler.csproj", "{B4EF5A7D-708D-4920-9DDC-2D54C76A38E5}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "16.windowsformlab", "16.windowsformlab\16.windowsformlab.csproj", "{FC00C184-4A4F-4E3B-8589-DE204A5EDF45}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "17.HazirMetodlar", "17.HazirMetodlar\17.HazirMetodlar.csproj", "{655B0350-C477-401F-A3E8-B2E621DFA50B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -99,6 +101,10 @@ Global
 		{FC00C184-4A4F-4E3B-8589-DE204A5EDF45}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FC00C184-4A4F-4E3B-8589-DE204A5EDF45}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FC00C184-4A4F-4E3B-8589-DE204A5EDF45}.Release|Any CPU.Build.0 = Release|Any CPU
+		{655B0350-C477-401F-A3E8-B2E621DFA50B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{655B0350-C477-401F-A3E8-B2E621DFA50B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{655B0350-C477-401F-A3E8-B2E621DFA50B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{655B0350-C477-401F-A3E8-B2E621DFA50B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
