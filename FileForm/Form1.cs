@@ -11,22 +11,6 @@ using System.Windows.Forms;
 
 namespace FileForm
 {
-    public struct Kisi
-    {
-        public string Ad;
-        public string Soyad;
-        public DateTime Dogumtarihi;
-        public char Cinsiyet;
-        public string Egitimdurum;
-        public decimal Gelirler;
-        public string Mesleki;
-        public string Medenisi;
-        public string Takimi;
-        public string Memleketi;
-
-
-
-    }
 
     public partial class FileForm : Form
     {
@@ -66,6 +50,9 @@ namespace FileForm
 
             StringBuilder builder = new StringBuilder();
 
+            kisi.Id = DosyaIdBul("kisiler.txt");
+
+            builder.Append(kisi.Id + ";");
             builder.Append(kisi.Ad+";");
             builder.Append(kisi.Soyad + ";");
             builder.Append(kisi.Dogumtarihi + ";");
@@ -80,6 +67,34 @@ namespace FileForm
             DosyayaYaz(builder.ToString());
 
 
+        }
+
+        public int DosyaIdBul(string dosyaAdi)
+        {
+            int Id = 0;
+            bool durum = false;
+           
+                if (File.Exists(dosyaAdi))
+                {
+                    string[] kayitlarId = File.ReadAllLines(dosyaAdi);
+
+                    if (kayitlarId.Length > 0)
+                    {
+                        foreach (var kayit in kayitlarId)
+                        {
+                            string[] veri = kayit.Split(';');
+                            durum = int.TryParse(veri[0], out Id);
+                        }
+                    }
+
+                }
+                
+                
+            
+            
+            
+            
+            return ++Id;
         }
 
         public bool DosyayaYaz(string kayit)

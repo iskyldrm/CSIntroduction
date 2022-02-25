@@ -16,7 +16,7 @@ namespace FileForm
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FileForm());
+            Application.Run(new Anaform());
         }
     }
 }
