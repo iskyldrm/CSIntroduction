@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace _17.HazirMetodlar
+namespace FileForm
 {
     static class Program
     {
@@ -16,7 +16,7 @@ namespace _17.HazirMetodlar
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new MathForms());
+            Application.Run(new FileForm());
         }
     }
 }
