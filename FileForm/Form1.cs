@@ -24,7 +24,7 @@ namespace FileForm
             //File.CreateText(@"deneme.txt");
 
 
-            Kisi kisi = new Kisi(); //instance almak
+            Kisi kisi = new Kisi(); //instance almak//örnek almak
 
 
 
@@ -104,6 +104,11 @@ namespace FileForm
             writer.Close();
 
             return true;
+        }
+
+        private void FileForm_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
