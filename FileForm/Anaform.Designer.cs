@@ -35,10 +35,10 @@ namespace FileForm
             this.kişiBulToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.kişiGüncelleToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.kişiSilToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.kişileriListeleToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.hakkkımızdaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.bizKimizToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.versiyonToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.kişileriListeleToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -90,6 +90,13 @@ namespace FileForm
             this.kişiSilToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.kişiSilToolStripMenuItem.Text = "Kişi sil";
             // 
+            // kişileriListeleToolStripMenuItem
+            // 
+            this.kişileriListeleToolStripMenuItem.Name = "kişileriListeleToolStripMenuItem";
+            this.kişileriListeleToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.kişileriListeleToolStripMenuItem.Text = "kişileri listele";
+            this.kişileriListeleToolStripMenuItem.Click += new System.EventHandler(this.kişileriListeleToolStripMenuItem_Click);
+            // 
             // hakkkımızdaToolStripMenuItem
             // 
             this.hakkkımızdaToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -102,21 +109,14 @@ namespace FileForm
             // bizKimizToolStripMenuItem
             // 
             this.bizKimizToolStripMenuItem.Name = "bizKimizToolStripMenuItem";
-            this.bizKimizToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.bizKimizToolStripMenuItem.Size = new System.Drawing.Size(120, 22);
             this.bizKimizToolStripMenuItem.Text = "biz kimiz";
             // 
             // versiyonToolStripMenuItem
             // 
             this.versiyonToolStripMenuItem.Name = "versiyonToolStripMenuItem";
-            this.versiyonToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.versiyonToolStripMenuItem.Size = new System.Drawing.Size(120, 22);
             this.versiyonToolStripMenuItem.Text = "versiyon";
-            // 
-            // kişileriListeleToolStripMenuItem
-            // 
-            this.kişileriListeleToolStripMenuItem.Name = "kişileriListeleToolStripMenuItem";
-            this.kişileriListeleToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.kişileriListeleToolStripMenuItem.Text = "kişileri listele";
-            this.kişileriListeleToolStripMenuItem.Click += new System.EventHandler(this.kişileriListeleToolStripMenuItem_Click);
             // 
             // Anaform
             // 
